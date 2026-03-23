@@ -125,7 +125,7 @@ let package = Package(
         .library(name: "TreeSitterLanguagesAll", targets: ["TreeSitterLanguagesAll"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/HapticTide/Runestone.git", from: "1.0.0")
+        .package(url: "https://github.com/HapticTide/Runestone.git", branch: "dev")
     ],
     targets: [
         .target(name: "TreeSitterLanguagesCommon"),
